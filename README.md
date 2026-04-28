@@ -1,4 +1,4 @@
-# parcial 2 Arquitectura de Software
+# Parcial 2 / Arquitectura de Software
 
 ## Estudiantes
 
