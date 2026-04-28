@@ -1,5 +1,4 @@
-## PUNTO 1: Alimento con mayor cantidad de grasas
-## Reducer - Lee el resultado del mapper y encuentra el alimento con mayor grasas
+# Alimento con mayor cantidad de grasas
 
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -16,15 +15,12 @@ for linea in resultadoMapper.splitlines():
     consolidado[alimento] = grasas
 
 print(consolidado)
-
-## Encontrar el maximo de grasas
 maxGrasas = -1
 
 for clave in consolidado:
     if consolidado[clave] > maxGrasas:
         maxGrasas = consolidado[clave]
 
-## Recopilar todos los alimentos que tienen ese maximo
 alimentosConMaximo = []
 
 for clave in consolidado:
