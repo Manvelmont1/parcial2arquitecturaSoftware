@@ -1,5 +1,4 @@
-## PUNTO 2: Alimento con mayor cantidad de vitamina C
-## Reducer - Lee el resultado del mapper y encuentra el alimento con mayor vitamina C
+# Alimento con mayor cantidad de vitamina C
 
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -15,8 +14,6 @@ for linea in resultadoMapper.splitlines():
     consolidado[alimento] = vitC
 
 print(consolidado)
-
-## Encontrar el alimento con mayor vitamina C
 alimentoMayorVitC = ""
 maxVitC = -1
 
