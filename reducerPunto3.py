@@ -1,5 +1,4 @@
-## PUNTO 3: Cuantos alimentos tienen mas de 0.1 gramos de tiamina
-## Reducer - Lee el resultado del mapper y muestra la cantidad final
+# N. de alimentos que tienen mas de 0.1 gramos de tiamina
 
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -17,7 +16,6 @@ for linea in resultadoMapper.splitlines():
     consolidado[clave] = consolidado[clave] + valor
 
 print(consolidado)
-
 resultado = "La cantidad de alimentos con mas de 0.1 gramos de tiamina es: " + str(consolidado["cantidad"])
 
 print(resultado)
