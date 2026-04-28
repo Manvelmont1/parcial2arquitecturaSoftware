@@ -1,5 +1,4 @@
-## PUNTO 4: Alimento con mayor suma de vitaminas
-## Reducer - Lee el resultado del mapper y encuentra el alimento con mayor suma de vitaminas
+# Alimento con mayor suma de vitaminas
 
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -15,8 +14,6 @@ for linea in resultadoMapper.splitlines():
     consolidado[alimento] = sumaVitaminas
 
 print(consolidado)
-
-## Encontrar el alimento con mayor suma de vitaminas
 alimentoMayorVitaminas = ""
 maxSuma = -1
 
