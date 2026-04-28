@@ -1,5 +1,4 @@
-## PUNTO 5: Alimentos que aportan mas de 1 mg de hierro y menos de 3 g de grasas
-## Reducer - Lee el resultado del mapper y lista todos los alimentos que cumplen la condicion
+# Alimentos con mas de 1 mg de hierro y menos de 3 gr de grasas
 
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -16,7 +15,6 @@ for linea in resultadoMapper.splitlines():
 
 print(consolidado)
 
-## Listar todos los alimentos que cumplen ambas condiciones
 listaAlimentos = ""
 for clave in consolidado:
     listaAlimentos = listaAlimentos + "- " + clave + " (" + consolidado[clave] + ")\n"
