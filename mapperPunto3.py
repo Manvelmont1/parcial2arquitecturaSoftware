@@ -1,4 +1,4 @@
-## N. de alimentos que tienen mas de 0.1 gramos de tiamina
+# N. de alimentos que tienen mas de 0.1 gramos de tiamina
 
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
